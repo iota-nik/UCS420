@@ -45,4 +45,4 @@ mergedDict = {**myDict, **friendDict}
 # when mergeing 2 dictionaries and both share a key, dictionary placed on the right wins and other is overwritten
 
 # viii)
-stringDict = {k: v for k, v in myDict if isinstance(v, str)}
+stringDict = {k: v for k, v in myDict.items() if isinstance(v, str)}
