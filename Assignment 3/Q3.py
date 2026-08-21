@@ -1,3 +1,11 @@
+"""
+Q3) Navigate the DataFrame and do the following task for the table created in question 1:
+    1. Select row from index 3 to 7.
+    2. Select row from index 4 to 8, and column 2 to 4.
+    3. Select all rows with column index 1 to 3 (include index 3 during selection).  
+"""
+
+
 import pandas as pd
 
 data = {

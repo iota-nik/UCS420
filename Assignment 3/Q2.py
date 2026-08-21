@@ -1,3 +1,7 @@
+"""
+Q) From the above table that you have created, locate row 0, 4, 7 and 8 using DataFrame.  
+"""
+
 import pandas as pd
 
 data = {
